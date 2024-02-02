@@ -1,0 +1,5 @@
+C:\Users\User\Desktop\ShoeShop-main\ShoeStore.BL\obj\Debug\net6.0\ShoeStore.BL.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\ShoeShop-main\ShoeStore.BL\obj\Debug\net6.0\ShoeStore.BL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\ShoeShop-main\ShoeStore.BL\obj\Debug\net6.0\ShoeStore.BL.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\ShoeShop-main\ShoeStore.BL\obj\Debug\net6.0\ShoeStore.BL.AssemblyInfo.cs
+C:\Users\User\Desktop\ShoeShop-main\ShoeStore.BL\obj\Debug\net6.0\ShoeStore.BL.csproj.CoreCompileInputs.cache
