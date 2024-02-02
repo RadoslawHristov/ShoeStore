@@ -15,12 +15,10 @@ namespace ShoeStore.DL.Interfaces
         public void RemoveBrand(Brand brand);
 
 
-        public void UpdateBrand(Brand brand);
-
-
         public Brand GetBrand(int Id);
 
 
         public List<Brand> GetAllBrands();
+
     }
 }

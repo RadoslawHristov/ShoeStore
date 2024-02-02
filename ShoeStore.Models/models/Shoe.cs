@@ -3,9 +3,9 @@
     public class Shoe
     {
         public int Id { get; set; }
-        public int Size { get; set; }
+        public int Size { get; set; } 
 
-        public int BrandId;
+        public int BrandId { get; set; }
 
         public DateTime ReleaseDate { get; set; }
     }

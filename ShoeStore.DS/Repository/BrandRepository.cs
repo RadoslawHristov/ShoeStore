@@ -1,5 +1,6 @@
 ﻿using ShoeStore.DL.DL;
 using ShoeStore.DL.Interfaces;
+using ShoeStore.DL.MemoryDb;
 using ShoeStore.Models.models;
 
 namespace ShoeStore.DL.Repository
@@ -8,32 +9,26 @@ namespace ShoeStore.DL.Repository
     {
         public void AddBrand(Brand brand)
         {
-            StaticData.Brands.Add(brand);
+            InMemoryDb.BrandsData.Add(brand);
         }
 
         public List<Brand> GetAllBrands()
         {
-            return StaticData.Brands;
+            return InMemoryDb.BrandsData;
         }
 
         public Brand? GetBrand(int Id)
         {
             return
-                StaticData.Brands
-                .FirstOrDefault(b => b.Id == Id);
+                InMemoryDb.BrandsData
+                .First(b => b.Id == Id);
         }
 
         public void RemoveBrand(Brand brand)
         {
             if (brand == null) return;
-            StaticData.Brands.Remove(brand);
+            InMemoryDb.BrandsData.Remove(brand);
         }
 
-        public void UpdateBrand(Brand brand)
-        {
-            var existBrand = StaticData.Brands.FirstOrDefault(b => b.Id == brand.Id);
-            if (existBrand == null) return;
-            existBrand.Name = brand.Name;
-        }
     }
 }

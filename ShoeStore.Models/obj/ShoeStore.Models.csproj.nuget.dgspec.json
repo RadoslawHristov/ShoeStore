@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\ShoeShop-main\\ShoeStore.Models\\ShoeStore.Models.csproj": {}
+    "C:\\Users\\User\\Desktop\\ShoeStore\\ShoeStore\\ShoeStore.Models\\ShoeStore.Models.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\ShoeShop-main\\ShoeStore.Models\\ShoeStore.Models.csproj": {
+    "C:\\Users\\User\\Desktop\\ShoeStore\\ShoeStore\\ShoeStore.Models\\ShoeStore.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\ShoeShop-main\\ShoeStore.Models\\ShoeStore.Models.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\ShoeStore\\ShoeStore\\ShoeStore.Models\\ShoeStore.Models.csproj",
         "projectName": "ShoeStore.Models",
-        "projectPath": "C:\\Users\\User\\Desktop\\ShoeShop-main\\ShoeStore.Models\\ShoeStore.Models.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\ShoeStore\\ShoeStore\\ShoeStore.Models\\ShoeStore.Models.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\ShoeShop-main\\ShoeStore.Models\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\ShoeStore\\ShoeStore\\ShoeStore.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

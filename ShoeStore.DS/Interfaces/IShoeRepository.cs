@@ -10,12 +10,11 @@ namespace ShoeStore.DL.Interfaces
         public void RemoveShoe(Shoe shoe);
 
 
-        public void UpdateShoe(Shoe shoe);
-
-
         public Shoe GetShoe(int Id);
 
 
         public List<Shoe> GetAllShoes();
+
+        List<Shoe> GetAllByBrand(int brandId);
     }
 }

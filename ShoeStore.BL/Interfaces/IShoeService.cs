@@ -12,6 +12,7 @@ namespace ShoeStore.BL.Interfaces
 
         void RemoveShoe(int Id);
 
+        public List<Shoe>
         GetAllByBrandsAfterReleaseDate(
             int brandId,
             DateTime afterDate);
